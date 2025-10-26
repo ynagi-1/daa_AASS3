@@ -1,0 +1,62 @@
+=== MST ANALYSIS REPORT ===
+Graph Information:
+  Vertices: 20
+  Edges: 94
+  Is Connected: true
+
+PRIM'S ALGORITHM RESULTS:
+  Total Cost: 145
+  Execution Time: 0 ms
+  Operation Count: 363
+  MST Edges (19):
+    0 - 1 : 3
+    1 - 15 : 6
+    15 - 16 : 9
+    16 - 17 : 10
+    17 - 18 : 5
+    18 - 19 : 5
+    17 - 10 : 13
+    10 - 9 : 5
+    9 - 6 : 1
+    9 - 4 : 3
+    9 - 12 : 5
+    12 - 8 : 1
+    12 - 11 : 3
+    9 - 7 : 6
+    4 - 5 : 7
+    9 - 3 : 7
+    15 - 13 : 17
+    19 - 2 : 19
+    15 - 14 : 20
+
+KRUSKAL'S ALGORITHM RESULTS:
+  Total Cost: 145
+  Execution Time: 0 ms
+  Operation Count: 233
+  MST Edges (19):
+    6 - 9 : 1
+    8 - 12 : 1
+    4 - 9 : 3
+    0 - 1 : 3
+    11 - 12 : 3
+    9 - 12 : 5
+    9 - 10 : 5
+    17 - 18 : 5
+    18 - 19 : 5
+    1 - 15 : 6
+    7 - 9 : 6
+    3 - 9 : 7
+    4 - 5 : 7
+    15 - 16 : 9
+    16 - 17 : 10
+    10 - 17 : 13
+    13 - 15 : 17
+    2 - 19 : 19
+    14 - 15 : 20
+
+COMPARISON SUMMARY:
+  Costs Match: true
+  Time Difference: 0 ms
+  Prim Operations: 363
+  Kruskal Operations: 233
+  Winner: Tie

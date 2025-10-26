@@ -1,0 +1,356 @@
+{
+  "mstComparisonResults": [
+    {
+      "graphId": 1,
+      "vertices": 4,
+      "edges": 5,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 19,
+        "executionTimeMs": 0,
+        "operationCount": 40,
+        "mstEdgesCount": 3
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 19,
+        "executionTimeMs": 0,
+        "operationCount": 27,
+        "mstEdgesCount": 3
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 2,
+      "vertices": 5,
+      "edges": 10,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 9,
+        "executionTimeMs": 0,
+        "operationCount": 79,
+        "mstEdgesCount": 4
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 9,
+        "executionTimeMs": 0,
+        "operationCount": 38,
+        "mstEdgesCount": 4
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 3,
+      "vertices": 6,
+      "edges": 6,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 15,
+        "executionTimeMs": 0,
+        "operationCount": 63,
+        "mstEdgesCount": 5
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 15,
+        "executionTimeMs": 0,
+        "operationCount": 37,
+        "mstEdgesCount": 5
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 4,
+      "vertices": 8,
+      "edges": 11,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 35,
+        "executionTimeMs": 0,
+        "operationCount": 130,
+        "mstEdgesCount": 7
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 35,
+        "executionTimeMs": 0,
+        "operationCount": 57,
+        "mstEdgesCount": 7
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 5,
+      "vertices": 10,
+      "edges": 21,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 61,
+        "executionTimeMs": 0,
+        "operationCount": 272,
+        "mstEdgesCount": 9
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 61,
+        "executionTimeMs": 0,
+        "operationCount": 82,
+        "mstEdgesCount": 9
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 6,
+      "vertices": 12,
+      "edges": 17,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 42,
+        "executionTimeMs": 0,
+        "operationCount": 268,
+        "mstEdgesCount": 11
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 42,
+        "executionTimeMs": 0,
+        "operationCount": 87,
+        "mstEdgesCount": 11
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 7,
+      "vertices": 15,
+      "edges": 21,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 94,
+        "executionTimeMs": 0,
+        "operationCount": 397,
+        "mstEdgesCount": 14
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 94,
+        "executionTimeMs": 0,
+        "operationCount": 112,
+        "mstEdgesCount": 14
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 8,
+      "vertices": 20,
+      "edges": 22,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 116,
+        "executionTimeMs": 0,
+        "operationCount": 539,
+        "mstEdgesCount": 19
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 116,
+        "executionTimeMs": 0,
+        "operationCount": 137,
+        "mstEdgesCount": 19
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 9,
+      "vertices": 25,
+      "edges": 41,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 149,
+        "executionTimeMs": 0,
+        "operationCount": 1169,
+        "mstEdgesCount": 24
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 149,
+        "executionTimeMs": 0,
+        "operationCount": 201,
+        "mstEdgesCount": 24
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 10,
+      "vertices": 30,
+      "edges": 57,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 179,
+        "executionTimeMs": 0,
+        "operationCount": 1892,
+        "mstEdgesCount": 29
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 179,
+        "executionTimeMs": 0,
+        "operationCount": 262,
+        "mstEdgesCount": 29
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 11,
+      "vertices": 35,
+      "edges": 39,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 236,
+        "executionTimeMs": 0,
+        "operationCount": 1541,
+        "mstEdgesCount": 34
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 236,
+        "executionTimeMs": 0,
+        "operationCount": 244,
+        "mstEdgesCount": 34
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 12,
+      "vertices": 40,
+      "edges": 45,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 212,
+        "executionTimeMs": 0,
+        "operationCount": 2006,
+        "mstEdgesCount": 39
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 212,
+        "executionTimeMs": 0,
+        "operationCount": 283,
+        "mstEdgesCount": 39
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 13,
+      "vertices": 8,
+      "edges": 10,
+      "isConnected": false,
+      "primAlgorithm": {
+        "totalCost": 9,
+        "executionTimeMs": 0,
+        "operationCount": 62,
+        "mstEdgesCount": 3
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 21,
+        "executionTimeMs": 0,
+        "operationCount": 58,
+        "mstEdgesCount": 6
+      },
+      "comparison": {
+        "costsMatch": false,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 14,
+      "vertices": 10,
+      "edges": 16,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 45,
+        "executionTimeMs": 0,
+        "operationCount": 215,
+        "mstEdgesCount": 9
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 45,
+        "executionTimeMs": 0,
+        "operationCount": 71,
+        "mstEdgesCount": 9
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 15,
+      "vertices": 18,
+      "edges": 30,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 80,
+        "executionTimeMs": 0,
+        "operationCount": 641,
+        "mstEdgesCount": 17
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 80,
+        "executionTimeMs": 0,
+        "operationCount": 139,
+        "mstEdgesCount": 17
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    },
+    {
+      "graphId": 16,
+      "vertices": 7,
+      "edges": 21,
+      "isConnected": true,
+      "primAlgorithm": {
+        "totalCost": 29,
+        "executionTimeMs": 0,
+        "operationCount": 201,
+        "mstEdgesCount": 6
+      },
+      "kruskalAlgorithm": {
+        "totalCost": 29,
+        "executionTimeMs": 0,
+        "operationCount": 67,
+        "mstEdgesCount": 6
+      },
+      "comparison": {
+        "costsMatch": true,
+        "timeDifferenceMs": 0
+      }
+    }
+  ]
+}

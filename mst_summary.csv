@@ -1,0 +1,15 @@
+GraphName,Vertices,Edges,Density,PrimTime,KruskalTime,FasterAlgorithm,Cost
+Small Graph - 4 vertices (Simple),4,5,0,833,1,16,Prim,19
+Small Graph - 5 vertices (Complete),5,10,1,000,0,0,Tie,9
+Small Graph - 6 vertices (Sparse),6,6,0,400,0,0,Tie,15
+Medium Graph - 8 vertices,9,14,0,389,0,0,Tie,37
+Medium Graph - 10 vertices (Dense),10,32,0,711,0,0,Tie,44
+Medium Graph - 12 vertices (Grid),12,17,0,258,0,0,Tie,35
+Large Graph - 15 vertices,15,71,0,676,0,0,Tie,43
+Large Graph - 20 vertices (Sparse),20,73,0,384,0,0,Tie,107
+Large Graph - 25 vertices (Medium),25,210,0,700,0,0,Tie,84
+Complete Graph - 7 vertices,7,21,1,000,0,0,Tie,12
+Equal Weights Graph,8,8,0,286,0,0,Tie,35
+Random Graph - 30 vertices (Dense),30,289,0,664,0,0,Tie,90
+Random Graph - 35 vertices (Sparse),35,148,0,249,0,0,Tie,136
+Random Graph - 40 vertices (Medium),40,371,0,476,0,0,Tie,111

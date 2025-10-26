@@ -1,0 +1,17 @@
+Graph,Vertices,Edges,IsConnected,PrimCost,KruskalCost,PrimTimeMs,KruskalTimeMs,PrimOperations,KruskalOperations,CostsMatch,TimeDifferenceMs
+1,4,5,true,19,19,0,0,40,27,true,0
+2,5,10,true,9,9,0,0,79,38,true,0
+3,6,6,true,15,15,0,0,63,37,true,0
+4,8,11,true,35,35,0,0,130,57,true,0
+5,10,21,true,61,61,0,0,272,82,true,0
+6,12,17,true,42,42,0,0,268,87,true,0
+7,15,21,true,94,94,0,0,397,112,true,0
+8,20,22,true,116,116,0,0,539,137,true,0
+9,25,41,true,149,149,0,0,1169,201,true,0
+10,30,57,true,179,179,0,0,1892,262,true,0
+11,35,39,true,236,236,0,0,1541,244,true,0
+12,40,45,true,212,212,0,0,2006,283,true,0
+13,8,10,false,9,21,0,0,62,58,false,0
+14,10,16,true,45,45,0,0,215,71,true,0
+15,18,30,true,80,80,0,0,641,139,true,0
+16,7,21,true,29,29,0,0,201,67,true,0

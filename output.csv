@@ -1,0 +1,15 @@
+TestCase,GraphName,Vertices,Edges,IsConnected,PrimCost,PrimTime,PrimOperations,PrimEdges,KruskalCost,KruskalTime,KruskalOperations,KruskalEdges,CostsMatch,TimeDifference,FasterAlgorithm
+1,Small Graph - 4 vertices (Simple),4,5,true,19,0,27,3,19,1,27,3,true,1,Prim
+2,Small Graph - 5 vertices (Complete),5,10,true,9,0,45,4,9,0,38,4,true,0,Tie
+3,Small Graph - 6 vertices (Sparse),6,6,true,15,0,37,5,15,0,37,5,true,0,Tie
+4,Medium Graph - 8 vertices,9,14,true,37,0,79,8,37,0,72,8,true,0,Tie
+5,Medium Graph - 10 vertices (Dense),10,32,true,44,0,129,9,44,0,87,9,true,0,Tie
+6,Medium Graph - 12 vertices (Grid),12,17,true,35,0,94,11,35,0,93,11,true,0,Tie
+7,Large Graph - 15 vertices,15,71,true,43,0,269,14,43,0,168,14,true,0,Tie
+8,Large Graph - 20 vertices (Sparse),20,73,true,107,0,312,19,107,0,218,19,true,0,Tie
+9,Large Graph - 25 vertices (Medium),25,210,true,84,0,724,24,84,0,376,24,true,0,Tie
+10,Complete Graph - 7 vertices,7,21,true,12,0,82,6,12,0,58,6,true,0,Tie
+11,Equal Weights Graph,8,8,true,35,0,51,7,35,0,51,7,true,0,Tie
+12,Random Graph - 30 vertices (Dense),30,289,true,90,0,990,29,90,0,503,29,true,0,Tie
+13,Random Graph - 35 vertices (Sparse),35,148,true,136,0,634,34,136,0,458,34,true,0,Tie
+14,Random Graph - 40 vertices (Medium),40,371,true,111,0,1336,39,111,0,729,39,true,0,Tie
