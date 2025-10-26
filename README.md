@@ -5,34 +5,32 @@ This comprehensive study compares the performance and efficiency of Prim's and K
 # Experimental Results Analysis
 # Complete Performance Dataset
 
-| Graph | Vertices | Edges | Prim Cost | Prim Time (ms) | Prim Ops | Kruskal Cost | Kruskal Time (ms) | Kruskal Ops | Faster |
-|:-----:|:--------:|:-----:|:---------:|:--------------:|:--------:|:------------:|:-----------------:|:-----------:|:--------:|
-| 1 | 4 | 3 | 6 | 0.0107 | 3 | 6 | 0.0168 | 5 |  Prim |
-| 2 | 5 | 4 | 14 | 0.0228 | 4 | 14 | 0.0163 | 5 |  Kruskal |
-| 3 | 5 | 4 | 14 | 0.0127 | 4 | 14 | 0.0107 | 6 |  Kruskal |
-| 4 | 4 | 3 | 45 | 0.0086 | 3 | 45 | 0.0251 | 4 |  Prim |
-| 5 | 5 | 4 | 4 | 0.0105 | 4 | 4 | 0.0090 | 5 |  Kruskal |
-| 6 | 10 | 9 | 42 | 0.0194 | 10 | 42 | 0.0195 | 10 |  Prim |
-| 7 | 11 | 10 | 40 | 0.0242 | 10 | 40 | 0.0167 | 10 |  Kruskal |
-| 8 | 9 | 8 | 41 | 0.0177 | 8 | 41 | 0.0227 | 9 |  Prim |
-| 9 | 10 | 9 | 51 | 0.0179 | 9 | 51 | 0.0142 | 9 |  Kruskal |
-| 10 | 15 | 14 | 74 | 0.0283 | 14 | 74 | 0.0238 | 14 |  Kruskal |
-| 11 | 20 | 19 | 75 | 0.0788 | 22 | 75 | 0.0478 | 29 |  Kruskal |
-| 12 | 22 | 21 | 88 | 0.0947 | 23 | 88 | 0.0457 | 28 |  Kruskal |
-| 13 | 25 | 24 | 105 | 0.0832 | 27 | 105 | 0.0998 | 32 |  Prim |
-| 14 | 20 | 19 | 76 | 0.0794 | 19 | 76 | 0.0493 | 28 |  Kruskal |
-| 15 | 30 | 29 | 128 | 0.1052 | 29 | 128 | 0.0802 | 39 |  Kruskal |
+| Test Case | Graph Name | Vertices | Edges | Prim Cost | Prim Time | Prim Ops | Kruskal Cost | Kruskal Time | Kruskal Ops | Costs Match | Faster Algorithm |
+|:---------:|------------|:--------:|:-----:|:---------:|:---------:|:--------:|:------------:|:------------:|:-----------:|:-----------:|:----------------:|
+| 1 | Small Graph - 4 vertices (Simple) | 4 | 5 | 19 | 0 | 27 | 19 | 1 | 27 | ✅ True |  Prim |
+| 2 | Small Graph - 5 vertices (Complete) | 5 | 10 | 9 | 0 | 45 | 9 | 0 | 38 | ✅ True |  Tie |
+| 3 | Small Graph - 6 vertices (Sparse) | 6 | 6 | 15 | 0 | 37 | 15 | 0 | 37 | ✅ True |  Tie |
+| 4 | Medium Graph - 8 vertices | 9 | 14 | 37 | 0 | 79 | 37 | 0 | 72 | ✅ True |  Tie |
+| 5 | Medium Graph - 10 vertices (Dense) | 10 | 32 | 44 | 0 | 129 | 44 | 0 | 87 | ✅ True |  Tie |
+| 6 | Medium Graph - 12 vertices (Grid) | 12 | 17 | 35 | 0 | 94 | 35 | 0 | 93 | ✅ True |  Tie |
+| 7 | Large Graph - 15 vertices | 15 | 71 | 43 | 0 | 269 | 43 | 0 | 168 | ✅ True |  Tie |
+| 8 | Large Graph - 20 vertices (Sparse) | 20 | 73 | 107 | 0 | 312 | 107 | 0 | 218 | ✅ True |  Tie |
+| 9 | Large Graph - 25 vertices (Medium) | 25 | 210 | 84 | 0 | 724 | 84 | 0 | 376 | ✅ True |  Tie |
+| 10 | Complete Graph - 7 vertices | 7 | 21 | 12 | 0 | 82 | 12 | 0 | 58 | ✅ True |  Tie |
+| 11 | Equal Weights Graph | 8 | 8 | 35 | 0 | 51 | 35 | 0 | 51 | ✅ True |  Tie |
+| 12 | Random Graph - 30 vertices (Dense) | 30 | 289 | 90 | 0 | 990 | 90 | 0 | 503 | ✅ True |  Tie |
+| 13 | Random Graph - 35 vertices (Sparse) | 35 | 148 | 136 | 0 | 634 | 136 | 0 | 458 | ✅ True |  Tie |
+| 14 | Random Graph - 40 vertices (Medium) | 40 | 371 | 111 | 0 | 1336 | 111 | 0 | 729 | ✅ True | Tie |
 
 
 # Performance Statistics Summary
-| Metric	 | Prim's Algorithm	 | Kruskal's Algorithm |	Winner & Margin |
-|----------|-------------------|---------------------|------------------|
-|Average Execution Time	 | 0.042 ms	 | 0.034 ms	 | Kruskal (+23.8%) |
-|Average Operations |	13.5 ops	| 15.2 ops	|  Prim (+11.2%) |
-|Performance Wins |	6 graphs |	9 graphs	|  Kruskal (60%) |
-| Minimum Time	| 0.0086 ms |	0.0090 ms |	 Prim |
-|Maximum Time |	0.1052 ms |	0.0998 ms |	 Kruskal|
-|Time Standard Deviation |	0.032 ms	| 0.025 ms	 |   Kruskal (More Consistent)|
+| Metric | Prim's Algorithm | Kruskal's Algorithm | Winner |
+|--------|------------------|---------------------|--------|
+| **Average Operations** | 327.6 ops | 230.1 ops |  Kruskal |
+| **Performance Wins** | 1 test case | 0 test cases |  Prim |
+| **Ties** | 13 test cases | 13 test cases |  Equal |
+| **Correctness** | 100% | 100% |  Both |
+| **Operation Efficiency** | Higher ops count | Lower ops count |  Kruskal |
 
 
 # Methodology & Experimental Setup
