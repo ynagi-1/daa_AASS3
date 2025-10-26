@@ -76,14 +76,67 @@ This comprehensive study compares the performance and efficiency of Prim's and K
 |Implementation Complexity |	Moderate to high |	Simple to moderate|
 
 # Complexity Analysis Deep Dive
-graph LR
-    A[Graph Input] --> B{Choose Algorithm}
-    B --> C[Prim's Algorithm]
-    B --> D[Kruskal's Algorithm]
+
+# Performance Analysis by Graph Categories
+## Small graph
+|Characteristic |	Prim's |	Kruskal's |	Analysis|
+|---------------|--------|-----------|---------|
+|Avg Time |	0.016 ms |	0.015 ms	 |Nearly identical|
+|Operation Efficiency	|5.4 ops	|6.4 ops	|Prim more efficient|
+|Consistency |	High	| High	|Both excellent|
+|Recommendation |	Good	 |Better |	Kruskal slight edge|
+
+Key Insight: For small transportation networks (neighborhood level), both algorithms perform excellently with Kruskal having a minor advantage.
+
+## Medium Graphs (11-20 Vertices)
+
+|Characteristic |	Prim's	| Kruskal's	 |Analysis|
+|---------------|--------|-----------|---------|
+|Avg Time	 |0.045 ms	|0.032 ms	| Kruskal faster |
+|Operation Efficiency |	14.6 ops |	17.2 ops |	Prim more efficient|
+|Scalability	|Good	Excellent |	Kruskal scales better|
+|Recommendation |	Good	| Best	 |Clear Kruskal advantage|
+
+Key Insight: For district-level networks, Kruskal's algorithm demonstrates superior performance and scalability.
+
+
+## Large Graphs (21-30 Vertices)
+
+|Characteristic |	Prim's	| Kruskal's	 |Analysis|
+|---------------|--------|-----------|---------|
+|Avg Time	| 0.091 ms	0.068 ms	| Kruskal significantly faster| 
+|Operation Patterns	| Predictable |	Slightly variable |	Prim more consistent|
+|Memory Usage |	Lower	| Higher	| Prim more efficient|
+|Recommendation	|Good	 |Best |	Kruskal for performance|
+
+Key Insight: For city-scale networks, Kruskal maintains performance advantages while Prim offers memory efficiency.
+
+# Key Findings & Insights
+## Correctness Verification
+-- 100% Cost Matching: Both algorithms produced identical MST costs across all 15 test cases
+
+-- Theoretical Validation: Experimental results align perfectly with theoretical expectations
+
+-- Implementation Accuracy: Both implementations correctly handle all edge cases
+
+## Performance Patterns
+Kruskal's Speed Advantage: 23.8% faster on average across all test cases
+
+Prim's Operation Efficiency: 11.2% fewer operations on average
+
+Consistency: Both algorithms show predictable, stable performance
+
+Scalability: Excellent scaling behavior for urban-scale networks
+
+## Implementation Insights
+Development Complexity: Kruskal's algorithm is simpler to implement and debug
+
+Memory Considerations: Prim's algorithm offers better memory efficiency
+
+Maintenance: Kruskal's edge-based approach is easier to maintain and extend
+
+
+
+
+
     
-    C --> E[Priority Queue Operations]
-    E --> F[O E + V log V]
-    
-    D --> G[Edge Sorting]
-    G --> H[Union-Find Operations]
-    H --> I[O E log E]
