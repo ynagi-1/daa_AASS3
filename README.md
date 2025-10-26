@@ -76,6 +76,19 @@ This comprehensive study compares the performance and efficiency of Prim's and K
 |Implementation Complexity |	Moderate to high |	Simple to moderate|
 
 # Complexity Analysis Deep Dive
+```mermaid
+graph LR
+    A[Graph Input] --> B{Choose Algorithm}
+    B --> C[Prim's Algorithm]
+    B --> D[Kruskal's Algorithm]
+    
+    C --> E[Priority Queue Operations]
+    E --> F[O E + V log V]
+    
+    D --> G[Edge Sorting]
+    G --> H[Union-Find Operations]
+    H --> I[O E log E]
+```
 
 # Performance Analysis by Graph Categories
 ## Small graph
