@@ -2,8 +2,8 @@
 ## Summary of Input Data and Algorithm Results
 I analyzed 15 different graphs of increasing size and density. Each graph was processed by both Prim’s and Kruskal’s algorithms. The table below summarizes the results, including total MST cost, execution time (in milliseconds), and operation count.
 
-# Graph ID	Vertices	Edges	Prim Cost	Prim Time (ms)	Prim Ops	Kruskal Cost	Kruskal Time (ms)	Kruskal Ops
-1	4	3	6	0.0107	3	6	0.0168	5
+| Graph | ID |	Vertices |	Edges |	Prim | Cost |	Prim Time (ms) |	Prim Ops |	Kruskal Cost |	Kruskal Time (ms)	| Kruskal Ops |
+| 1	| 4 |	3 |	6 |	0.0107 |	3 |	6 |	0.0168 |	5 |
 2	5	4	14	0.0228	4	14	0.0163	5
 3	5	4	14	0.0127	4	14	0.0107	6
 4	4	3	45	0.0086	3	45	0.0251	4
